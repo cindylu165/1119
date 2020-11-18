@@ -1,0 +1,49 @@
+body{
+    background-color: #DCDCDC;
+}
+#title{
+    font-size: 50px;
+    text-align:center;
+    font-family: "微軟正黑體";
+}
+#showData {
+    width: 100%;
+    text-align: center;
+}
+#rawData{
+    display: none;
+}
+.col{
+    text-align: center;
+    width: 10%;
+    /* padding: 2px; */
+    display: inline-block;
+    margin: 3px;
+}
+.colTh{
+    text-align: center;
+    width: 10%;
+    /* padding: 1px; */
+    display: inline-block;
+    margin: 1px;
+}
+.colNam {
+    text-align: center;
+    width: 25%;
+    /* padding: 1px; */
+    display: inline-block;
+    margin: 3px;
+}
+.colNamT{
+    text-align: center;
+    width: 25%;
+    /* padding: 1px; */
+    display: inline-block;
+    margin: 1px;
+}
+select{
+    margin: auto;
+}
+#search{
+    /* padding: 100px auto; */
+}

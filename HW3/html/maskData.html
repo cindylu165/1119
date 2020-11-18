@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../css/maskData.css">
+  <title>查詢口罩剩餘數量</title>
+</head>
+
+<body style="font-family: 微軟正黑體">
+  <main>
+    <div id="title">查詢口罩剩餘數量</div>
+    <div id="rawData"></div>
+    <div id="search" style="text-align: center;">
+      <span id="selectCity">請選擇縣市:</span>
+      <!-- 傳送資料時候name是key,值是value -->
+      <select onclick="show()" name="city" id="city" style="text-align: center;display: inline-block">
+        <option value="">--選擇縣市--</option>
+      </select>
+      <!-- <span>剩餘口罩總數:</span> -->
+      <div id="txt1" style="display: inline-block;"></div>
+      <!-- <span>總要局數:</span> -->
+      <div id="txt2" style="display: inline-block;"></div>
+    </div>
+
+
+    <div id="showData">
+
+    </div>
+  </main>
+</body>
+<!-- 越上面放越基礎的js檔 -->
+<script src="../js/data.js"></script>
+<script src="../js/maskData.js"></script>
+
+</html>
